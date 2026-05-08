@@ -25,6 +25,8 @@ apis:
       - Policy
       - Resource Management
     properties:
+      - url: openapi/microsoft-azure-policy-openapi.yml
+        type: OpenAPI
       - type: Documentation
         url: https://learn.microsoft.com/en-us/rest/api/policy/
       - type: Authentication
