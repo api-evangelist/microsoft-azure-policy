@@ -1,6 +1,7 @@
 name: Azure Policy
-description: Azure Policy is a service that enables you to create, assign, and manage policies that enforce rules and effects
-  over your Azure resources. It helps with compliance, governance, and consistency by evaluating resources against business
+description: >-
+  Azure Policy is a service that enables you to create, assign, and manage policies that enforce rules and effects over
+  your Azure resources. It helps with compliance, governance, and consistency by evaluating resources against business
   standards and reporting on their state.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -13,30 +14,27 @@ modified: '2026-05-19'
 specificationVersion: '0.18'
 apis:
   - name: Azure Policy REST API
-    description: Azure Policy REST API provides management of policy definitions, assignments, and compliance states for enforcing
-      organizational standards across Azure resources. It supports creating custom policies, initiatives, exemptions, and querying
-      compliance results.
+    description: >-
+      Azure Policy REST API provides management of policy definitions, assignments, and compliance states for enforcing
+      organizational standards across Azure resources. It supports creating custom policies, initiatives, exemptions,
+      and querying compliance results.
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/rest/api/policy/
     baseURL: https://management.azure.com/
     tags:
-    - Compliance
-    - Governance
-    - Policy
-    - Resource Management
+      - Compliance
+      - Governance
+      - Policy
+      - Resource Management
     properties:
-    - url: openapi/microsoft-azure-policy-openapi.yml
-      type: OpenAPI
-    - type: Documentation
-      url: https://learn.microsoft.com/en-us/rest/api/policy/
-    - type: Authentication
-      url: https://learn.microsoft.com/en-us/rest/api/azure/
-    - type: Overview
-      url: https://learn.microsoft.com/en-us/azure/governance/policy/overview
-    - type: NaftikoCapability
-      url: capabilities/microsoft-azure-policy-operations.yaml
-    - type: NaftikoCapability
-      url: capabilities/microsoft-azure-policy-policy-definitions.yaml
+      - url: openapi/microsoft-azure-policy-openapi.yml
+        type: OpenAPI
+      - type: Documentation
+        url: https://learn.microsoft.com/en-us/rest/api/policy/
+      - type: Authentication
+        url: https://learn.microsoft.com/en-us/rest/api/azure/
+      - type: Overview
+        url: https://learn.microsoft.com/en-us/azure/governance/policy/overview
 common:
   - type: GitHubOrganization
     url: https://github.com/Azure
