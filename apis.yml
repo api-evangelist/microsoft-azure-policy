@@ -3,7 +3,7 @@ description: >-
   Azure Policy is a service that enables you to create, assign, and manage policies that enforce rules and effects over
   your Azure resources. It helps with compliance, governance, and consistency by evaluating resources against business
   standards and reporting on their state.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Compliance
   - Governance
@@ -18,7 +18,7 @@ apis:
       Azure Policy REST API provides management of policy definitions, assignments, and compliance states for enforcing
       organizational standards across Azure resources. It supports creating custom policies, initiatives, exemptions,
       and querying compliance results.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/rest/api/policy/
     baseURL: https://management.azure.com/
     tags:
