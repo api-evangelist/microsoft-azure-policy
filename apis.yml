@@ -46,7 +46,7 @@ common:
     url: https://learn.microsoft.com/en-us/azure/governance/policy/
   - type: Website
     url: https://azure.microsoft.com/en-us/products/azure-policy
-  - type: SignUp
+  - type: Signup
     url: https://azure.microsoft.com/en-us/free/
   - type: Login
     url: https://portal.azure.com/
@@ -56,7 +56,7 @@ common:
     url: https://www.microsoft.com/en-us/legal/terms-of-use
   - type: PrivacyPolicy
     url: https://privacy.microsoft.com/en-us/privacystatement
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://portal.azure.com/llms.txt
 maintainers:
   - FN: Kin Lane
