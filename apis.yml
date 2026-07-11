@@ -36,6 +36,10 @@ apis:
       - type: Overview
         url: https://learn.microsoft.com/en-us/azure/governance/policy/overview
 common:
+  - type: DomainSecurity
+    url: security/microsoft-azure-policy-domain-security.yml
+  - type: Authentication
+    url: authentication/microsoft-azure-policy-authentication.yml
   - type: OAuthScopes
     url: scopes/microsoft-azure-policy-scopes.yml
   - type: GitHubOrganization
