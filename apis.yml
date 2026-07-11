@@ -36,6 +36,8 @@ apis:
       - type: Overview
         url: https://learn.microsoft.com/en-us/azure/governance/policy/overview
 common:
+  - type: OAuthScopes
+    url: scopes/microsoft-azure-policy-scopes.yml
   - type: GitHubOrganization
     url: https://github.com/Azure
   - type: Portal
