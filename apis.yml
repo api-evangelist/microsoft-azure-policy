@@ -36,6 +36,8 @@ apis:
       - type: Overview
         url: https://learn.microsoft.com/en-us/azure/governance/policy/overview
 common:
+  - type: AgenticAccess
+    url: agentic-access/microsoft-azure-policy-agentic-access.yml
   - type: DomainSecurity
     url: security/microsoft-azure-policy-domain-security.yml
   - type: Authentication
