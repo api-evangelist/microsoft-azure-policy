@@ -3,7 +3,20 @@ description: >-
   Azure Policy is a service that enables you to create, assign, and manage policies that enforce rules and effects over
   your Azure resources. It helps with compliance, governance, and consistency by evaluating resources against business
   standards and reporting on their state.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-policy.png
 tags:
   - Compliance
   - Governance
@@ -13,28 +26,38 @@ created: '2026-03-13'
 modified: '2026-05-19'
 specificationVersion: '0.18'
 apis:
-  - name: Azure Policy REST API
-    description: >-
-      Azure Policy REST API provides management of policy definitions, assignments, and compliance states for enforcing
-      organizational standards across Azure resources. It supports creating custom policies, initiatives, exemptions,
-      and querying compliance results.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/policy/
-    baseURL: https://management.azure.com/
-    tags:
-      - Compliance
-      - Governance
-      - Policy
-      - Resource Management
-    properties:
-      - url: openapi/microsoft-azure-policy-openapi.yml
-        type: OpenAPI
-      - type: Documentation
-        url: https://learn.microsoft.com/en-us/rest/api/policy/
-      - type: Authentication
-        url: https://learn.microsoft.com/en-us/rest/api/azure/
-      - type: Overview
-        url: https://learn.microsoft.com/en-us/azure/governance/policy/overview
+- aid: microsoft-azure-policy:microsoft-azure-policy-operations-api
+  name: Azure Policy Operations API
+  description: Operations operations
+  humanURL: https://learn.microsoft.com/en-us/rest/api/policy/
+  baseURL: https://management.azure.com/
+  tags:
+  - Operations
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-policy-operations-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/policy/
+  - type: Authentication
+    url: https://learn.microsoft.com/en-us/rest/api/azure/
+  - type: Overview
+    url: https://learn.microsoft.com/en-us/azure/governance/policy/overview
+- aid: microsoft-azure-policy:microsoft-azure-policy-policy-definitions-api
+  name: Azure Policy Policy Definitions API
+  description: Policy Definitions operations
+  humanURL: https://learn.microsoft.com/en-us/rest/api/policy/
+  baseURL: https://management.azure.com/
+  tags:
+  - Policy Definitions
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-policy-policy-definitions-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/policy/
+  - type: Authentication
+    url: https://learn.microsoft.com/en-us/rest/api/azure/
+  - type: Overview
+    url: https://learn.microsoft.com/en-us/azure/governance/policy/overview
 common:
   - type: AgenticAccess
     url: agentic-access/microsoft-azure-policy-agentic-access.yml
