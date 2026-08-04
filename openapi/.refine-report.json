@@ -1,0 +1,16 @@
+{
+  "provider": "microsoft-azure-policy",
+  "sources": [
+    "microsoft-azure-policy-operations-api-openapi.yml",
+    "microsoft-azure-policy-policy-definitions-api-openapi.yml"
+  ],
+  "outputs": [
+    "microsoft-azure-policy-operations-api-openapi.yml",
+    "microsoft-azure-policy-policy-definitions-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
