@@ -1,4 +1,5 @@
 name: Azure Policy
+url: https://azure.microsoft.com/en-us/products/azure-policy
 description: >-
   Azure Policy is a service that enables you to create, assign, and manage policies that enforce rules and effects over
   your Azure resources. It helps with compliance, governance, and consistency by evaluating resources against business
