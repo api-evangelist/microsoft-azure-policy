@@ -1,9 +1,8 @@
 name: Azure Policy
 url: https://azure.microsoft.com/en-us/products/azure-policy
-description: >-
-  Azure Policy is a service that enables you to create, assign, and manage policies that enforce rules and effects over
-  your Azure resources. It helps with compliance, governance, and consistency by evaluating resources against business
-  standards and reporting on their state.
+description: Azure Policy is a service that enables you to create, assign, and manage policies that enforce
+  rules and effects over your Azure resources. It helps with compliance, governance, and consistency by
+  evaluating resources against business standards and reporting on their state.
 deliveryModel:
   model: saas
   open_source: false
@@ -31,12 +30,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-policy.png
 tags:
-  - Compliance
-  - Governance
-  - Policy
-  - Resource Management
+- Compliance
+- Governance
+- Policy
+- Resource Management
 created: '2026-03-13'
-modified: '2026-05-19'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 apis:
 - aid: microsoft-azure-policy:microsoft-azure-policy-operations-api
@@ -57,7 +56,7 @@ apis:
   - type: Overview
     url: https://learn.microsoft.com/en-us/azure/governance/policy/overview
 - aid: microsoft-azure-policy:microsoft-azure-policy-policy-definitions-api
-  name: Azure Policy Policy Definitions API
+  name: Azure Policy Definitions API
   description: Policy Definitions operations
   humanURL: https://learn.microsoft.com/en-us/rest/api/policy/
   baseURL: https://management.azure.com/
@@ -73,38 +72,38 @@ apis:
   - type: Overview
     url: https://learn.microsoft.com/en-us/azure/governance/policy/overview
 common:
-  - type: AgenticAccess
-    url: agentic-access/microsoft-azure-policy-agentic-access.yml
-  - type: DomainSecurity
-    url: security/microsoft-azure-policy-domain-security.yml
-  - type: Authentication
-    url: authentication/microsoft-azure-policy-authentication.yml
-  - type: OAuthScopes
-    url: scopes/microsoft-azure-policy-scopes.yml
-  - type: GitHubOrganization
-    url: https://github.com/Azure
-  - type: Portal
-    url: https://portal.azure.com/
-  - type: Pricing
-    url: https://azure.microsoft.com/en-us/pricing/
-  - type: Documentation
-    url: https://learn.microsoft.com/en-us/azure/governance/policy/
-  - type: Website
-    url: https://azure.microsoft.com/en-us/products/azure-policy
-  - type: Signup
-    url: https://azure.microsoft.com/en-us/free/
-  - type: Login
-    url: https://portal.azure.com/
-  - type: Support
-    url: https://support.microsoft.com/
-  - type: TermsOfService
-    url: https://www.microsoft.com/en-us/legal/terms-of-use
-  - type: PrivacyPolicy
-    url: https://privacy.microsoft.com/en-us/privacystatement
-  - type: LlmsText
-    url: https://portal.azure.com/llms.txt
+- type: AgenticAccess
+  url: agentic-access/microsoft-azure-policy-agentic-access.yml
+- type: DomainSecurity
+  url: security/microsoft-azure-policy-domain-security.yml
+- type: Authentication
+  url: authentication/microsoft-azure-policy-authentication.yml
+- type: OAuthScopes
+  url: scopes/microsoft-azure-policy-scopes.yml
+- type: GitHubOrganization
+  url: https://github.com/Azure
+- type: Portal
+  url: https://portal.azure.com/
+- type: Pricing
+  url: https://azure.microsoft.com/en-us/pricing/
+- type: Documentation
+  url: https://learn.microsoft.com/en-us/azure/governance/policy/
+- type: Website
+  url: https://azure.microsoft.com/en-us/products/azure-policy
+- type: Signup
+  url: https://azure.microsoft.com/en-us/free/
+- type: Login
+  url: https://portal.azure.com/
+- type: Support
+  url: https://support.microsoft.com/
+- type: TermsOfService
+  url: https://www.microsoft.com/en-us/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
+- type: LlmsText
+  url: https://portal.azure.com/llms.txt
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
 x-parent: microsoft-azure
 x-relationship: product
